@@ -1,0 +1,14 @@
+
+/Assets/Mat/Tex
+/Assets/Mesh
+/Assets/OBJExport
+/Assets/Scenes
+/Assets/Shader
+/Assets/StreamingAssets
+/Library
+/Temp
+/ProjectSettings
+/obj
+/Packages
+/Logs
+*.csproj
