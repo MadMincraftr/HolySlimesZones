@@ -504,6 +504,60 @@ Transform:
   m_Father: {fileID: 6047502724296074711}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2561311025238737434
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4652343649423894673}
+  - component: {fileID: 2005811762361136921}
+  - component: {fileID: 296165532350247518}
+  m_Layer: 0
+  m_Name: polySurface604 (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4652343649423894673
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2561311025238737434}
+  m_LocalRotation: {x: 0.25440377, y: -0.009109231, z: -0.0031056094, w: 0.96705025}
+  m_LocalPosition: {x: -0, y: 8.32, z: -105.47}
+  m_LocalScale: {x: 1, y: 1, z: 0.42464083}
+  m_Children: []
+  m_Father: {fileID: 9084886460805947695}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 29.471, y: -1.264, z: -0.70000005}
+--- !u!33 &2005811762361136921
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2561311025238737434}
+  m_Mesh: {fileID: 4300000, guid: 99e0492f560f5db4881a9af777910f0f, type: 2}
+--- !u!64 &296165532350247518
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2561311025238737434}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 99e0492f560f5db4881a9af777910f0f, type: 2}
 --- !u!1 &2599851498374430468
 GameObject:
   m_ObjectHideFlags: 0
@@ -609,7 +663,7 @@ GameObject:
   - component: {fileID: 261916658864085228}
   - component: {fileID: 2535353737633471360}
   - component: {fileID: 626483723195748578}
-  - component: {fileID: 6540505728485805453}
+  - component: {fileID: 3677274779962689679}
   m_Layer: 0
   m_Name: polySurface293
   m_TagString: Untagged
@@ -678,7 +732,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &6540505728485805453
+--- !u!64 &3677274779962689679
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -807,7 +861,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 75
+      scalar: 50
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -912,8 +966,8 @@ ParticleSystem:
         m_RotationOrder: 4
     startColor:
       serializedVersion: 2
-      minMaxState: 0
-      minColor: {r: 1, g: 1, b: 1, a: 1}
+      minMaxState: 2
+      minColor: {r: 0.5176471, g: 0.6862745, b: 1, a: 1}
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
@@ -1556,9 +1610,9 @@ ParticleSystem:
     serializedVersion: 4
     rateOverTime:
       serializedVersion: 2
-      minMaxState: 0
-      scalar: 5
-      minScalar: 10
+      minMaxState: 3
+      scalar: 1
+      minScalar: 2
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -3318,7 +3372,7 @@ ParticleSystem:
     strength:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 4
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -6300,6 +6354,7 @@ Transform:
   - {fileID: 1258793649677452113}
   - {fileID: 2597250707673554618}
   - {fileID: 7557189397154723159}
+  - {fileID: 4652343649423894673}
   m_Father: {fileID: 842350410200972411}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
