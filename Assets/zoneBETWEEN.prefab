@@ -1485,7 +1485,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5428464735124541617}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.26, z: -10.37}
+  m_LocalPosition: {x: 0, y: 0.26, z: -20.04}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 947039907338516194}
@@ -1565,7 +1565,7 @@ ParticleSystem:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  moveWithTransform: 0
+  moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
   randomSeed: 0
@@ -1575,7 +1575,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 50
+      scalar: 100
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -1628,7 +1628,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 10
+      scalar: 15
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -2060,7 +2060,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 75
+    maxNumParticles: 250
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -2127,7 +2127,7 @@ ParticleSystem:
     donutRadius: 0.2
     m_Position: {x: 0, y: 0, z: 0}
     m_Rotation: {x: 0, y: 0, z: 0}
-    m_Scale: {x: 300, y: 0.2, z: 1}
+    m_Scale: {x: 500, y: 0.2, z: 1}
     placementMode: 0
     m_MeshMaterialIndex: 0
     m_MeshNormalOffset: 0
@@ -2325,7 +2325,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 1
+      scalar: 3
       minScalar: 2
       maxCurve:
         serializedVersion: 2
@@ -7042,8 +7042,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9035805674202526888}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.04505114, y: -10.814185, z: -1.7835011}
-  m_LocalScale: {x: 16.807486, y: 551.80304, z: 10.001996}
+  m_LocalPosition: {x: 0.045017, y: -10.814185, z: -1.7895}
+  m_LocalScale: {x: 26.007029, y: 551.80304, z: 21.28167}
   m_Children: []
   m_Father: {fileID: 8070492529456807082}
   m_RootOrder: 3
