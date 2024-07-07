@@ -12,3 +12,4 @@
 /Packages
 /Logs
 *.csproj
+/Assets/CS
