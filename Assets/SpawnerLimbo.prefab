@@ -46,7 +46,7 @@ MonoBehaviour:
   spawnFX: {fileID: 0}
   radius: 5
   spawnDelayFactor: 1
-  enableToteming: 0
+  enableToteming: 1
   constraints:
   - slimeset:
       members:
