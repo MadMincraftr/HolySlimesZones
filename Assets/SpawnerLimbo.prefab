@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8544718127408067777}
   - component: {fileID: 6015543729789542772}
-  - component: {fileID: 1026633458290722804}
   m_Layer: 0
   m_Name: SpawnerLimbo
   m_TagString: Untagged
@@ -51,13 +50,13 @@ MonoBehaviour:
   constraints:
   - slimeset:
       members:
-      - prefab: {fileID: 5945305747007541555, guid: 23de0ebd92759be499b03a3c5479dffc,
+      - prefab: {fileID: 7967265292983954691, guid: 5533ca0cbe5a0e048ad86c7842906c7c,
           type: 3}
         weight: 15
-      - prefab: {fileID: 5945305747007541555, guid: 23de0ebd92759be499b03a3c5479dffc,
+      - prefab: {fileID: 2716493413490750495, guid: d707332c1e3ed2343b28fe21c780287e,
           type: 3}
         weight: 15
-      - prefab: {fileID: 5945305747007541555, guid: 23de0ebd92759be499b03a3c5479dffc,
+      - prefab: {fileID: 1064618059407492393, guid: f19870ed72f78ef4088e9dd7a14a297e,
           type: 3}
         weight: 2
     weight: 1
@@ -72,19 +71,3 @@ MonoBehaviour:
   allowDirectedSpawns: 1
   directedSpawnWeight: 1
   slimeSpawnFX: {fileID: 0}
---- !u!114 &1026633458290722804
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8929111419355558773}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad15369e7e2775744a209de55c997948, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  slimes:
-  - ANGEL_SLIME
-  - DEMON_SLIME
-  - QUANTUM_SLIME
