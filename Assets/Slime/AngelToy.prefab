@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6698359455658235209
+--- !u!1 &4583458403865819167
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,23 +8,23 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5973583078616582456}
-  - component: {fileID: 9205599444139106727}
-  - component: {fileID: 2988586407191212684}
+  - component: {fileID: 4398747188845974758}
+  - component: {fileID: 8149954077244465794}
+  - component: {fileID: 7424884961831110720}
   m_Layer: 0
-  m_Name: TotemLinker
+  m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5973583078616582456
+--- !u!4 &4398747188845974758
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6698359455658235209}
+  m_GameObject: {fileID: 4583458403865819167}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -32,27 +32,13 @@ Transform:
   m_Father: {fileID: 2665623361862870346}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &9205599444139106727
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6698359455658235209}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -2432090755550338912, guid: 76a85e72d3b0ae648b66139aa77630c8, type: 3}
---- !u!114 &2988586407191212684
+--- !u!114 &8149954077244465794
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6698359455658235209}
+  m_GameObject: {fileID: 4583458403865819167}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6720304bd7953e74b9b2468273e9e13e, type: 3}
@@ -62,6 +48,20 @@ MonoBehaviour:
   rethinkReceptivenessMin: 6
   rethinkReceptivenessMax: 12
   gravFactorWhileTotemed: 0.5
+--- !u!64 &7424884961831110720
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4583458403865819167}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2432090755550338912, guid: 76a85e72d3b0ae648b66139aa77630c8, type: 3}
 --- !u!1 &7945381917790538517
 GameObject:
   m_ObjectHideFlags: 0
@@ -79,7 +79,6 @@ GameObject:
   - component: {fileID: -9093439407346434616}
   - component: {fileID: 763004009091988076}
   - component: {fileID: 763004009091988075}
-  - component: {fileID: 763004009091988074}
   - component: {fileID: 763004009091988073}
   - component: {fileID: 763004009091988072}
   m_Layer: 0
@@ -98,9 +97,9 @@ Transform:
   m_GameObject: {fileID: 7945381917790538517}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 50, z: 0}
-  m_LocalScale: {x: 1, y: 0.75, z: 1}
+  m_LocalScale: {x: 0.25, y: 0.15, z: 0.25}
   m_Children:
-  - {fileID: 5973583078616582456}
+  - {fileID: 4398747188845974758}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -236,20 +235,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &763004009091988074
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7945381917790538517}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: adfbbed44815e2440aba8f0953fa6d2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  floatDragMultiplier: 25
+  m_CollisionDetection: 1
 --- !u!114 &763004009091988073
 MonoBehaviour:
   m_ObjectHideFlags: 0
