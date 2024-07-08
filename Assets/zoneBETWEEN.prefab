@@ -70,8 +70,8 @@ MonoBehaviour:
   cullAnimalsLimit: 50
   targetSlimeCount: 100
   targetAnimalCount: 20
-  minPerSpawn: 3
-  maxPerSpawn: 5
+  minPerSpawn: 2
+  maxPerSpawn: 4
   minAnimalPerSpawn: 3
   maxAnimalPerSpawn: 5
   despawnFactor: 1.2
@@ -79,7 +79,7 @@ MonoBehaviour:
   isRanch: 0
   isHomeRanch: 0
   isWilds: 0
-  ambianceZone: 0
+  ambianceZone: 4
   ignoreCoopCorralAnimals: 0
   notShownOnMap: 0
 --- !u!114 &314687516592098207
@@ -121,8 +121,8 @@ Transform:
   m_LocalPosition: {x: 2206.8928, y: -747.41254, z: 713.37885}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 3833667254722043404}
-  - {fileID: 6634337059784084104}
+  - {fileID: 9013299841607804071}
+  - {fileID: 5167370386472354316}
   m_Father: {fileID: 1165637541961503083}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1088,71 +1088,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &4412072685339008318
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3478090498096765578}
-  - component: {fileID: 1561559513514413887}
-  m_Layer: 0
-  m_Name: SpawnerLimbo
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3478090498096765578
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4412072685339008318}
-  m_LocalRotation: {x: -0, y: -0, z: -0.12844773, w: 0.9917163}
-  m_LocalPosition: {x: 0.8, y: 11.17, z: -79.28}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2404636909986800525}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -14.76}
---- !u!114 &1561559513514413887
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4412072685339008318}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b4950a3e7362d444974e8bad0ccfb14, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnFX: {fileID: 0}
-  radius: 5
-  spawnDelayFactor: 1
-  enableToteming: 0
-  constraints:
-  - slimeset:
-      members:
-      - prefab: {fileID: 5945305747007541555, guid: 23de0ebd92759be499b03a3c5479dffc,
-          type: 3}
-        weight: 1
-    weight: 0
-    window:
-      timeMode: 0
-      startHour: 0
-      endHour: 0
-    feral: 0
-    maxAgitation: 0
-  spawnLocs:
-  - {fileID: 4412072685339008318}
-  allowDirectedSpawns: 1
-  directedSpawnWeight: 1
-  slimeSpawnFX: {fileID: 0}
 --- !u!1 &4748356816552569787
 GameObject:
   m_ObjectHideFlags: 0
@@ -1341,36 +1276,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2432090755550338912, guid: 42a82805fe34c0842935673d1719b916, type: 3}
---- !u!1 &4982804389346035226
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6634337059784084104}
-  m_Layer: 0
-  m_Name: SpawnerQuantumLimbo (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6634337059784084104
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4982804389346035226}
-  m_LocalRotation: {x: 0.11522138, y: -0, z: -0, w: 0.9933399}
-  m_LocalPosition: {x: -2207.013, y: 758.4525, z: -722.87885}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 7277484035220113304}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 13.233001, y: 0, z: 0}
 --- !u!1 &5049147170460418290
 GameObject:
   m_ObjectHideFlags: 0
@@ -7122,7 +7027,7 @@ MonoBehaviour:
   isRanch: 0
   isHomeRanch: 0
   isWilds: 0
-  ambianceZone: 0
+  ambianceZone: 4
   ignoreCoopCorralAnimals: 0
   notShownOnMap: 0
 --- !u!114 &7199534013153308003
@@ -7137,36 +7042,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0137da8a37fe0974596cc6e62b20946b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &9000568496533475421
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3833667254722043404}
-  m_Layer: 0
-  m_Name: SpawnerQuantumLimbo
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3833667254722043404
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9000568496533475421}
-  m_LocalRotation: {x: -0, y: -0, z: 0.1423408, w: 0.9898178}
-  m_LocalPosition: {x: -2225.483, y: 758.4525, z: -723.8488}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 7277484035220113304}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 16.367}
 --- !u!1 &9035805674202526888
 GameObject:
   m_ObjectHideFlags: 0
@@ -7256,6 +7131,81 @@ Skybox:
   m_GameObject: {fileID: 9035805674202526888}
   m_Enabled: 1
   m_CustomSkybox: {fileID: 2100000, guid: f9601eb37416c2e45b078a7a727ab4cc, type: 2}
+--- !u!1001 &5102656701543722571
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2404636909986800525}
+    m_Modifications:
+    - target: {fileID: 8544718127408067777, guid: 4cb936cbaf206b74cbc7affbbcd805f0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544718127408067777, guid: 4cb936cbaf206b74cbc7affbbcd805f0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544718127408067777, guid: 4cb936cbaf206b74cbc7affbbcd805f0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544718127408067777, guid: 4cb936cbaf206b74cbc7affbbcd805f0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -79.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544718127408067777, guid: 4cb936cbaf206b74cbc7affbbcd805f0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9917163
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544718127408067777, guid: 4cb936cbaf206b74cbc7affbbcd805f0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544718127408067777, guid: 4cb936cbaf206b74cbc7affbbcd805f0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544718127408067777, guid: 4cb936cbaf206b74cbc7affbbcd805f0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.12844773
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544718127408067777, guid: 4cb936cbaf206b74cbc7affbbcd805f0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544718127408067777, guid: 4cb936cbaf206b74cbc7affbbcd805f0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8544718127408067777, guid: 4cb936cbaf206b74cbc7affbbcd805f0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -14.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 8929111419355558773, guid: 4cb936cbaf206b74cbc7affbbcd805f0,
+        type: 3}
+      propertyPath: m_Name
+      value: SpawnerLimbo
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4cb936cbaf206b74cbc7affbbcd805f0, type: 3}
+--- !u!4 &3478090498096765578 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8544718127408067777, guid: 4cb936cbaf206b74cbc7affbbcd805f0,
+    type: 3}
+  m_PrefabInstance: {fileID: 5102656701543722571}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5580997022402297381
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7365,4 +7315,154 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6727565189532267166, guid: 1c0617a3d1eda744da2983106b3e261a,
     type: 3}
   m_PrefabInstance: {fileID: 5580997022402297381}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6214023958132137815
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7277484035220113304}
+    m_Modifications:
+    - target: {fileID: 1263974518942424411, guid: aff586ee92673034a90702bc788b3f37,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263974518942424411, guid: aff586ee92673034a90702bc788b3f37,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2207.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263974518942424411, guid: aff586ee92673034a90702bc788b3f37,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 757.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263974518942424411, guid: aff586ee92673034a90702bc788b3f37,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -728.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263974518942424411, guid: aff586ee92673034a90702bc788b3f37,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.00000017751204
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263974518942424411, guid: aff586ee92673034a90702bc788b3f37,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.31833884
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263974518942424411, guid: aff586ee92673034a90702bc788b3f37,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.94797707
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263974518942424411, guid: aff586ee92673034a90702bc788b3f37,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.000000059610066
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263974518942424411, guid: aff586ee92673034a90702bc788b3f37,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263974518942424411, guid: aff586ee92673034a90702bc788b3f37,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180.00002
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263974518942424411, guid: aff586ee92673034a90702bc788b3f37,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -37.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 2086563534343805679, guid: aff586ee92673034a90702bc788b3f37,
+        type: 3}
+      propertyPath: m_Name
+      value: SpawnerLimboQ (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aff586ee92673034a90702bc788b3f37, type: 3}
+--- !u!4 &5167370386472354316 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1263974518942424411, guid: aff586ee92673034a90702bc788b3f37,
+    type: 3}
+  m_PrefabInstance: {fileID: 6214023958132137815}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7827016816922425852
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7277484035220113304}
+    m_Modifications:
+    - target: {fileID: 1263974518942424411, guid: aff586ee92673034a90702bc788b3f37,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263974518942424411, guid: aff586ee92673034a90702bc788b3f37,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2226.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263974518942424411, guid: aff586ee92673034a90702bc788b3f37,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 757.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263974518942424411, guid: aff586ee92673034a90702bc788b3f37,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -734.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263974518942424411, guid: aff586ee92673034a90702bc788b3f37,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9848078
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263974518942424411, guid: aff586ee92673034a90702bc788b3f37,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263974518942424411, guid: aff586ee92673034a90702bc788b3f37,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263974518942424411, guid: aff586ee92673034a90702bc788b3f37,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.17364825
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263974518942424411, guid: aff586ee92673034a90702bc788b3f37,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263974518942424411, guid: aff586ee92673034a90702bc788b3f37,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263974518942424411, guid: aff586ee92673034a90702bc788b3f37,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2086563534343805679, guid: aff586ee92673034a90702bc788b3f37,
+        type: 3}
+      propertyPath: m_Name
+      value: SpawnerLimboQ
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aff586ee92673034a90702bc788b3f37, type: 3}
+--- !u!4 &9013299841607804071 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1263974518942424411, guid: aff586ee92673034a90702bc788b3f37,
+    type: 3}
+  m_PrefabInstance: {fileID: 7827016816922425852}
   m_PrefabAsset: {fileID: 0}
