@@ -15,6 +15,11 @@ GameObject:
   - component: {fileID: 3250634265404690455}
   - component: {fileID: 2268517539713165364}
   - component: {fileID: -9093439407346434616}
+  - component: {fileID: 763004009091988076}
+  - component: {fileID: 763004009091988075}
+  - component: {fileID: 763004009091988074}
+  - component: {fileID: 763004009091988073}
+  - component: {fileID: 763004009091988072}
   m_Layer: 0
   m_Name: AngelToy
   m_TagString: Untagged
@@ -122,9 +127,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9c5103662824da45991ec41d0fd1dd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitCue: {fileID: 0}
+  hitCue: {fileID: 11400000, guid: c6ac47c2decefd6479df522f8ff0eff3, type: 2}
   minTimeBetween: 1
-  minForce: 0
+  minForce: 0.2
   includeControllerCollisions: 0
 --- !u!114 &-9093439407346434616
 MonoBehaviour:
@@ -139,4 +144,70 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   size: 1
-  onLaunchCue: {fileID: 0}
+  onLaunchCue: {fileID: 11400000, guid: 5a6e2a04ff9cdc4408b9f2c39967a35b, type: 2}
+--- !u!114 &763004009091988076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7945381917790538517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d68c15556ed3d2e4995053479e77b17a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canHibernate: 1
+--- !u!54 &763004009091988075
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7945381917790538517}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &763004009091988074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7945381917790538517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adfbbed44815e2440aba8f0953fa6d2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floatDragMultiplier: 25
+--- !u!114 &763004009091988073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7945381917790538517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b39aa7ae2c20c1e40835e87eb36b80b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &763004009091988072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7945381917790538517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5657405edb0f58447b4d13cd5cdad7ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
