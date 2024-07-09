@@ -6159,7 +6159,7 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 61acd0a6ea3bf4648a7096d0c1b269f7, type: 2}
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 02b527203dd54a44ea5325b6e8a1ce6d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7431,7 +7431,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2100000, guid: 02b527203dd54a44ea5325b6e8a1ce6d, type: 2}
     - target: {fileID: 538362082086529476, guid: 1c0617a3d1eda744da2983106b3e261a,
         type: 3}
       propertyPath: lengthInSec
