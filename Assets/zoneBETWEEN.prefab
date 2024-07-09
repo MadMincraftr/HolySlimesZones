@@ -75,7 +75,7 @@ MonoBehaviour:
   minAnimalPerSpawn: 3
   maxAnimalPerSpawn: 5
   despawnFactor: 1.2
-  avgSpawnTimeGameHours: 2
+  avgSpawnTimeGameHours: 0.4
   isRanch: 0
   isHomeRanch: 0
   isWilds: 0
@@ -6112,7 +6112,7 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 61acd0a6ea3bf4648a7096d0c1b269f7, type: 2}
-  - {fileID: 2100000, guid: 02b527203dd54a44ea5325b6e8a1ce6d, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7024,7 +7024,7 @@ MonoBehaviour:
   minAnimalPerSpawn: 3
   maxAnimalPerSpawn: 5
   despawnFactor: 1.2
-  avgSpawnTimeGameHours: 2
+  avgSpawnTimeGameHours: 0.4
   isRanch: 0
   isHomeRanch: 0
   isWilds: 0
@@ -7223,7 +7223,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 02b527203dd54a44ea5325b6e8a1ce6d, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 538362082086529476, guid: 1c0617a3d1eda744da2983106b3e261a,
         type: 3}
       propertyPath: lengthInSec
@@ -7452,12 +7452,12 @@ PrefabInstance:
     - target: {fileID: 1263974518942424411, guid: aff586ee92673034a90702bc788b3f37,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2226.42
+      value: -2225.62
       objectReference: {fileID: 0}
     - target: {fileID: 1263974518942424411, guid: aff586ee92673034a90702bc788b3f37,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 757.97
+      value: 758.44
       objectReference: {fileID: 0}
     - target: {fileID: 1263974518942424411, guid: aff586ee92673034a90702bc788b3f37,
         type: 3}
