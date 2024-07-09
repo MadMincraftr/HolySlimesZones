@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: betweensky
-  m_Shader: {fileID: 10755, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 0102702fef65c8143bce73a0ddd3b953, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -131,10 +131,10 @@ Material:
     - _BaseColorNight: {r: 0.02745098, g: 0.1294118, b: 0.3411765, a: 0.5019608}
     - _Color: {r: 0.47726062, g: 0.5620092, b: 0.6132076, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _HorizonColor: {r: 0.5, g: 0.5, b: 0.6, a: 1}
-    - _HorizonNight: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _HorizonColor: {r: 0.12156863, g: 0, b: 1, a: 1}
+    - _HorizonNight: {r: 0.42745098, g: 0, b: 1, a: 1}
     - _Shading: {r: 0.1803922, g: 0.5882353, b: 0.7882354, a: 0.2392157}
     - _ShadingNight: {r: 0.007843138, g: 0.007843138, b: 0.1686275, a: 1}
-    - _SkyColor: {r: 0.8, g: 0.8, b: 0.9, a: 1}
-    - _SkyColorNight: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+    - _SkyColor: {r: 0, g: 0.0627451, b: 1, a: 1}
+    - _SkyColorNight: {r: 0.5803922, g: 0, b: 1, a: 1}
     - _StarColor: {r: 1, g: 1, b: 1, a: 1}

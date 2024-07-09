@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: CopperOre
-  m_Shader: {fileID: 4800000, guid: 6499234e6b8c0ff45a8df01880008221, type: 3}
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -88,9 +88,9 @@ Material:
     - _Gloss: 0.161
     - _GlossMapScale: 1
     - _GlossPower: 0.3
-    - _Glossiness: 0.5
+    - _Glossiness: 0.65
     - _GlossyReflections: 1
-    - _Metallic: 0.374
+    - _Metallic: 1
     - _Mode: 0
     - _OcclusionStrength: 1
     - _PaintRim: 1
