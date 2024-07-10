@@ -70,5 +70,5 @@ MonoBehaviour:
   - {fileID: 2086563534343805679}
   allowDirectedSpawns: 1
   directedSpawnWeight: 1
-  slimeSpawnFX: {fileID: 5462482840232177184, guid: 644e239e04edbc24eb82659c28cce2e2,
+  slimeSpawnFX: {fileID: 3541112879164521564, guid: b788fb3e446e10642818ade51f806ea8,
     type: 3}
