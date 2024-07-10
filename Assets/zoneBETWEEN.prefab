@@ -6995,6 +6995,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3078802255373731639}
   - component: {fileID: 3388983018728751604}
+  - component: {fileID: 7523789430292502638}
   m_Layer: 0
   m_Name: zoneBETWEEN
   m_TagString: Untagged
@@ -7043,6 +7044,20 @@ MonoBehaviour:
   auxItems: []
   MinGingerPatches: 0
   MaxGingerPatches: 0
+--- !u!114 &7523789430292502638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8669805661039280902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d84db373f3d0d0e4f8c7d21823618466, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  persistenceKeys: []
+  persistenceValues: []
 --- !u!1 &8766782779770328924
 GameObject:
   m_ObjectHideFlags: 0
@@ -7318,12 +7333,6 @@ PrefabInstance:
 --- !u!4 &568588384678117393 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 949643599582715300, guid: 1c17311aaf56a054691a547e2efb5659,
-    type: 3}
-  m_PrefabInstance: {fileID: 777372094458420661}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &764050930307614629 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 23559824045513232, guid: 1c17311aaf56a054691a547e2efb5659,
     type: 3}
   m_PrefabInstance: {fileID: 777372094458420661}
   m_PrefabAsset: {fileID: 0}

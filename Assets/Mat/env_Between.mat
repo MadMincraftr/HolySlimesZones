@@ -99,10 +99,10 @@ Material:
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _DifContrast: 0.755
-    - _DifHue: 0.445
-    - _DifSat: -0.69
-    - _DifVal: 0.63
+    - _DifContrast: 1
+    - _DifHue: 0.662
+    - _DifSat: -0.53
+    - _DifVal: -0.06
     - _DstBlend: 0
     - _EnableDetailTex: 1
     - _Fade: 1
