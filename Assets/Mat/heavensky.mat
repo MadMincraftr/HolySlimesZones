@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: betweensky
+  m_Name: heavensky
   m_Shader: {fileID: 10755, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -129,7 +129,7 @@ Material:
     m_Colors:
     - _BaseColor: {r: 0.9176471, g: 0.9725491, b: 1, a: 1}
     - _BaseColorNight: {r: 0.02745098, g: 0.1294118, b: 0.3411765, a: 0.5019608}
-    - _Color: {r: 0.26214847, g: 0.3507882, b: 0.4056604, a: 1}
+    - _Color: {r: 0.5330188, g: 0.8183963, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _HorizonColor: {r: 0.12156863, g: 0, b: 1, a: 1}
     - _HorizonNight: {r: 0.42745098, g: 0, b: 1, a: 1}
