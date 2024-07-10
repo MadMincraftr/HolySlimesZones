@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: env_Between
+  m_Name: env_heaven
   m_Shader: {fileID: 4800000, guid: 5c68716e330bafc47ab3f842e5b33a27, type: 3}
   m_ShaderKeywords: _ENABLEDETAILTEX_ON _ONLYUPWARDFACES_ON _PRIMELOWERTOGGLE_ON
   m_LightmapFlags: 4
