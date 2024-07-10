@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b4950a3e7362d444974e8bad0ccfb14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnFX: {fileID: 0}
+  spawnFX: {fileID: 3541112879164521564, guid: b788fb3e446e10642818ade51f806ea8, type: 3}
   radius: 5
   spawnDelayFactor: 1
   enableToteming: 1
