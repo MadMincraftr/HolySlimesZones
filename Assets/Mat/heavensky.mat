@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: betweensky
+  m_Shader: {fileID: 10755, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Depth:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Horizon:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Moon:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTexture:
+        m_Texture: {fileID: 2800000, guid: 28eb9c6b6ef722a43be4f84876c4b8dd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PrimaryTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarNoise:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarsCube:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 5
+    - _AlphaCut: 0.2
+    - _AroundSunBias: 0
+    - _BumpScale: 1
+    - _CloudSpeed1: 1
+    - _CloudSpeed2: 1
+    - _CloudSpeedMaster: 1
+    - _Coverage: 0.5106499
+    - _Cutoff: 0.5
+    - _Dayness: 1
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EdgeBlend: 2
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _LightingOffsetDistance: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _NoiseScaleMaster: 1
+    - _NoiseTextureScale: 0
+    - _NoiseTextureScale2: 5
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _RimLightStrength: 1
+    - _RimPower: 3
+    - _SSSBoost: 1
+    - _SSSPower: 0
+    - _SSSRim: 0
+    - _SmoothnessTextureChannel: 0
+    - _Softness: 0.5
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TopDownOffset: 1
+    - _TopDownShadingLevel: 0
+    - _TopDownShadingOpacity: 1
+    - _TopDownShadingSoftness: 0
+    - _TopOffset: 1
+    - _TopShadingOpacity: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    - __dirty: 1
+    m_Colors:
+    - _BaseColor: {r: 0.9176471, g: 0.9725491, b: 1, a: 1}
+    - _BaseColorNight: {r: 0.02745098, g: 0.1294118, b: 0.3411765, a: 0.5019608}
+    - _Color: {r: 0.26214847, g: 0.3507882, b: 0.4056604, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _HorizonColor: {r: 0.12156863, g: 0, b: 1, a: 1}
+    - _HorizonNight: {r: 0.42745098, g: 0, b: 1, a: 1}
+    - _Shading: {r: 0.1803922, g: 0.5882353, b: 0.7882354, a: 0.2392157}
+    - _ShadingNight: {r: 0.007843138, g: 0.007843138, b: 0.1686275, a: 1}
+    - _SkyColor: {r: 0, g: 0.0627451, b: 1, a: 1}
+    - _SkyColorNight: {r: 0.5803922, g: 0, b: 1, a: 1}
+    - _StarColor: {r: 1, g: 1, b: 1, a: 1}
