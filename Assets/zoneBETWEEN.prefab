@@ -740,7 +740,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   overrideBounds: 0
   bounds:
-    m_Center: {x: -4.6, y: 25.5, z: -6.5}
+    m_Center: {x: 79.9, y: -841, z: -96}
     m_Extent: {x: 100, y: 50, z: 100}
   root: {fileID: 5076726549551029990}
   proxyMesh: {fileID: 0}
@@ -758,9 +758,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 072ec23bc1f2a3047aa62c33bda1dd78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cullSlimesLimit: 250
+  cullSlimesLimit: 20
   cullAnimalsLimit: 50
-  targetSlimeCount: 100
+  targetSlimeCount: 15
   targetAnimalCount: 20
   minPerSpawn: 2
   maxPerSpawn: 4
@@ -768,12 +768,12 @@ MonoBehaviour:
   maxAnimalPerSpawn: 5
   despawnFactor: 1.2
   avgSpawnTimeGameHours: 0.4
-  isRanch: 1
-  isHomeRanch: 1
+  isRanch: 0
+  isHomeRanch: 0
   isWilds: 0
   ambianceZone: 4
   ignoreCoopCorralAnimals: 0
-  notShownOnMap: 0
+  notShownOnMap: 1
 --- !u!114 &1955381142400485348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1405,7 +1405,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 2.4e-44, z: 8.476e-42, w: 6e-44}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -1795,7 +1795,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5852599298879938779}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1805,7 +1805,7 @@ Transform:
   - {fileID: 8597413153750625738}
   - {fileID: 4765738936353615905}
   - {fileID: 1065242214647995340}
-  m_Father: {fileID: 6956210327592676500}
+  m_Father: {fileID: 1758514884221123287}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6064890207238020298
@@ -5743,7 +5743,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     minVertexDistance: 0.2
-    textureMode: 3
+    textureMode: 0
     ribbonCount: 1
     shadowBias: 0.5
     worldSpace: 0
@@ -7091,6 +7091,37 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: a5645bdfad8d3b846a9b9ac447a7fc6e, type: 2}
+--- !u!1 &7100570548446275318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1758514884221123287}
+  m_Layer: 0
+  m_Name: Sector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1758514884221123287
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7100570548446275318}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5988715997444747222}
+  m_Father: {fileID: 6956210327592676500}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7410330231883914023
 GameObject:
   m_ObjectHideFlags: 0
@@ -7103,7 +7134,6 @@ GameObject:
   - component: {fileID: 484976765177358660}
   - component: {fileID: 2339998870757606543}
   - component: {fileID: 8977631612085199128}
-  - component: {fileID: 2318930012537611750}
   m_Layer: 0
   m_Name: cellEntranceBridge
   m_TagString: Untagged
@@ -7140,8 +7170,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   overrideBounds: 0
   bounds:
-    m_Center: {x: -13.9, y: 25.3, z: -68.4}
-    m_Extent: {x: 100, y: 50, z: 100}
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 600, y: 600, z: 600}
   root: {fileID: 4386175752703215409}
   proxyMesh: {fileID: 0}
   proxyMaterials: []
@@ -7158,22 +7188,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 072ec23bc1f2a3047aa62c33bda1dd78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cullSlimesLimit: 25
+  cullSlimesLimit: 20
   cullAnimalsLimit: 50
-  targetSlimeCount: 100
+  targetSlimeCount: 15
   targetAnimalCount: 20
-  minPerSpawn: 3
-  maxPerSpawn: 5
+  minPerSpawn: 2
+  maxPerSpawn: 4
   minAnimalPerSpawn: 3
   maxAnimalPerSpawn: 5
   despawnFactor: 1.2
   avgSpawnTimeGameHours: 0.4
-  isRanch: 1
-  isHomeRanch: 1
+  isRanch: 0
+  isHomeRanch: 0
   isWilds: 0
   ambianceZone: 4
   ignoreCoopCorralAnimals: 0
-  notShownOnMap: 0
+  notShownOnMap: 1
 --- !u!114 &8977631612085199128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7186,19 +7216,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0137da8a37fe0974596cc6e62b20946b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!65 &2318930012537611750
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7410330231883914023}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 100, y: 50, z: 100}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7434950646665924477
 GameObject:
   m_ObjectHideFlags: 0
@@ -7312,6 +7329,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6956210327592676500}
+  - component: {fileID: 325755975860876874}
+  - component: {fileID: 4342589182646478744}
+  - component: {fileID: 7904037663123330519}
   m_Layer: 0
   m_Name: cellRampBridge
   m_TagString: Untagged
@@ -7330,10 +7350,70 @@ Transform:
   m_LocalPosition: {x: -474.54248, y: -297.13782, z: -90.15016}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 5988715997444747222}
+  - {fileID: 1758514884221123287}
   m_Father: {fileID: 3874516515886107468}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &325755975860876874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7921996606887923477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eabc0f9f7d177154a860e927163786da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overrideBounds: 0
+  bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 600, y: 600, z: 600}
+  root: {fileID: 7100570548446275318}
+  proxyMesh: {fileID: 0}
+  proxyMaterials: []
+  cellDir: {fileID: 0}
+--- !u!114 &4342589182646478744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7921996606887923477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 072ec23bc1f2a3047aa62c33bda1dd78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cullSlimesLimit: 20
+  cullAnimalsLimit: 50
+  targetSlimeCount: 15
+  targetAnimalCount: 20
+  minPerSpawn: 2
+  maxPerSpawn: 4
+  minAnimalPerSpawn: 3
+  maxAnimalPerSpawn: 5
+  despawnFactor: 1.2
+  avgSpawnTimeGameHours: 0.4
+  isRanch: 0
+  isHomeRanch: 0
+  isWilds: 0
+  ambianceZone: 4
+  ignoreCoopCorralAnimals: 0
+  notShownOnMap: 1
+--- !u!114 &7904037663123330519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7921996606887923477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0137da8a37fe0974596cc6e62b20946b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8510511761058897429
 GameObject:
   m_ObjectHideFlags: 0
