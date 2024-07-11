@@ -740,7 +740,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   overrideBounds: 0
   bounds:
-    m_Center: {x: 79.9, y: -841, z: -96}
+    m_Center: {x: 79.9, y: -241, z: -96}
     m_Extent: {x: 100, y: 50, z: 100}
   root: {fileID: 5076726549551029990}
   proxyMesh: {fileID: 0}
@@ -7170,8 +7170,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   overrideBounds: 0
   bounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 600, y: 600, z: 600}
+    m_Center: {x: 80.6, y: -241, z: -149.4}
+    m_Extent: {x: 100, y: 50, z: 100}
   root: {fileID: 4386175752703215409}
   proxyMesh: {fileID: 0}
   proxyMaterials: []
@@ -7368,8 +7368,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   overrideBounds: 0
   bounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 600, y: 600, z: 600}
+    m_Center: {x: 86.1, y: -241, z: -217.9}
+    m_Extent: {x: 100, y: 50, z: 100}
   root: {fileID: 7100570548446275318}
   proxyMesh: {fileID: 0}
   proxyMaterials: []
