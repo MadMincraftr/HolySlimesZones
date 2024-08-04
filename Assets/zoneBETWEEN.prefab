@@ -562,22 +562,25 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -2432090755550338912, guid: 711bb0efaf2689945a38624f4155ba3c, type: 3}
---- !u!111 &6490511269499065766
-Animation:
+--- !u!95 &7002167329088355090
+Animator:
+  serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1582809204902909894}
   m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: f88dfb0d3e25f61449dd6bf70f323462, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: ae6479e6c29f4904a99ea53efa943d94, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2029a8e9176be1047a2d4cb7b51e8807, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1769678273921666255
 GameObject:
   m_ObjectHideFlags: 0
@@ -1475,7 +1478,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 1, y: 0, z: 0, w: 0.5}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -8554,6 +8557,11 @@ PrefabInstance:
       objectReference: {fileID: 5386183448040270087}
     - target: {fileID: 538362082086529476, guid: 1c0617a3d1eda744da2983106b3e261a,
         type: 3}
+      propertyPath: NoiseModule.quality
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 538362082086529476, guid: 1c0617a3d1eda744da2983106b3e261a,
+        type: 3}
       propertyPath: TrailModule.enabled
       value: 1
       objectReference: {fileID: 0}
@@ -8589,8 +8597,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 538362082086529476, guid: 1c0617a3d1eda744da2983106b3e261a,
         type: 3}
+      propertyPath: NoiseModule.remapEnabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 538362082086529476, guid: 1c0617a3d1eda744da2983106b3e261a,
+        type: 3}
       propertyPath: NoiseModule.strength.scalar
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 538362082086529476, guid: 1c0617a3d1eda744da2983106b3e261a,
         type: 3}
@@ -8610,12 +8623,27 @@ PrefabInstance:
     - target: {fileID: 538362082086529476, guid: 1c0617a3d1eda744da2983106b3e261a,
         type: 3}
       propertyPath: NoiseModule.strengthZ.scalar
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 538362082086529476, guid: 1c0617a3d1eda744da2983106b3e261a,
         type: 3}
       propertyPath: TrailModule.dieWithParticles
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 538362082086529476, guid: 1c0617a3d1eda744da2983106b3e261a,
+        type: 3}
+      propertyPath: NoiseModule.sizeAmount.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 538362082086529476, guid: 1c0617a3d1eda744da2983106b3e261a,
+        type: 3}
+      propertyPath: NoiseModule.scrollSpeed.scalar
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 538362082086529476, guid: 1c0617a3d1eda744da2983106b3e261a,
+        type: 3}
+      propertyPath: NoiseModule.rotationAmount.scalar
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 538362082086529476, guid: 1c0617a3d1eda744da2983106b3e261a,
         type: 3}
@@ -8670,7 +8698,7 @@ PrefabInstance:
     - target: {fileID: 6727565189532267166, guid: 1c0617a3d1eda744da2983106b3e261a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 33.930008
+      value: 33.69
       objectReference: {fileID: 0}
     - target: {fileID: 6727565189532267166, guid: 1c0617a3d1eda744da2983106b3e261a,
         type: 3}
